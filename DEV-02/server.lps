@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="server.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="217"/>
+        <CursorPos X="79" Y="238"/>
+        <UsageCount Value="107"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="sql_worker.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SQL_Worker"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="76"/>
+        <CursorPos X="56" Y="99"/>
+        <UsageCount Value="107"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../Downloads/fpcupdeluxe/fpcsrc/packages/fcl-json/src/fpjson.pp"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="507"/>
+        <CursorPos X="92" Y="534"/>
+        <UsageCount Value="53"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../Downloads/fpcupdeluxe/fpcsrc/packages/fcl-web/src/base/custhttpapp.pp"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="133"/>
+        <CursorPos X="21" Y="142"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="224" Column="21" TopLine="211"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="235" Column="36" TopLine="216"/>
+      </Position>
+      <Position>
+        <Filename Value="sql_worker.pas"/>
+        <Caret Line="85" Column="10" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="226" Column="5" TopLine="208"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="228" Column="15" TopLine="209"/>
+      </Position>
+      <Position>
+        <Filename Value="../../Downloads/fpcupdeluxe/fpcsrc/packages/fcl-json/src/fpjson.pp"/>
+        <Caret Line="475" Column="48" TopLine="456"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="229" Column="33" TopLine="209"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="242" Column="23" TopLine="220"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="254" Column="12" TopLine="227"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="260" Column="6" TopLine="232"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="247" Column="3" TopLine="230"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="241" Column="33" TopLine="220"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="244" Column="30" TopLine="224"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="66" Column="16" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="74" Column="8" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="81" Column="44" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="251" Column="21" TopLine="245"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="265" Column="38" TopLine="255"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="258" Column="69" TopLine="245"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="280" Column="35" TopLine="253"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="272" Column="2" TopLine="258"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="81" Column="34" TopLine="65"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="280" Column="43" TopLine="68"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="42" Column="104" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="101" Column="86" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="81" Column="29" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="328" Column="19" TopLine="308"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="99" Column="48" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="42" Column="56" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="server.lpr"/>
+        <Caret Line="106" Column="70" TopLine="75"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

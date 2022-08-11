@@ -1,0 +1,270 @@
+object Form2: TForm2
+  Left = 494
+  Height = 557
+  Top = 113
+  Width = 872
+  Caption = 'Operator dashboard'
+  ClientHeight = 557
+  ClientWidth = 872
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 592
+    Height = 16
+    Top = 280
+    Width = 41
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object Panel2: TPanel
+    Left = 16
+    Height = 64
+    Top = 0
+    Width = 848
+    BevelColor = clSilver
+    ClientHeight = 64
+    ClientWidth = 848
+    TabOrder = 0
+    object BitBtn1: TBitBtn
+      Left = 8
+      Height = 30
+      Top = 16
+      Width = 120
+      Caption = 'Add Listener'
+      Images = ImageList1
+      ImageIndex = 0
+      OnClick = BitBtn1Click
+      TabOrder = 0
+    end
+    object BitBtn2: TBitBtn
+      Left = 152
+      Height = 30
+      Top = 16
+      Width = 120
+      Caption = 'Create Decoy'
+      Images = ImageList1
+      ImageIndex = 1
+      OnClick = BitBtn2Click
+      TabOrder = 1
+    end
+    object BitBtn3: TBitBtn
+      Left = 296
+      Height = 30
+      Top = 16
+      Width = 96
+      Caption = 'Profiles'
+      TabOrder = 2
+    end
+    object BitBtn4: TBitBtn
+      Left = 416
+      Height = 30
+      Top = 16
+      Width = 88
+      Caption = 'Creds'
+      TabOrder = 3
+    end
+  end
+  object PageControl1: TPageControl
+    Left = 16
+    Height = 200
+    Top = 72
+    Width = 848
+    ActivePage = TabSheet1
+    TabIndex = 0
+    TabOrder = 1
+    object TabSheet1: TTabSheet
+      Caption = 'Connections'
+      ClientHeight = 170
+      ClientWidth = 838
+      object VST: TVirtualStringTree
+        Cursor = 63
+        Left = 0
+        Height = 170
+        Top = 0
+        Width = 838
+        Align = alClient
+        Color = clWindow
+        Colors.DisabledColor = clGrayText
+        Colors.HeaderHotColor = 11249848
+        Colors.TreeLineColor = clGrayText
+        DefaultNodeHeight = 22
+        DefaultText = 'Node'
+        Font.Height = -15
+        Header.AutoSizeIndex = 0
+        Header.Background = clHighlight
+        Header.Columns = <        
+          item
+            Options = [coEnabled, coParentBidiMode, coParentColor, coResizable, coShowDropMark, coVisible]
+            Position = 0
+            Text = 'UUID'
+            Width = 100
+          end        
+          item
+            Options = [coEnabled, coParentBidiMode, coParentColor, coResizable, coShowDropMark, coVisible]
+            Position = 1
+            Text = 'Type'
+            Width = 75
+          end        
+          item
+            Position = 2
+            Text = 'Internal IP'
+            Width = 120
+          end        
+          item
+            Position = 3
+            Text = 'User'
+            Width = 90
+          end>
+        Header.DefaultHeight = 25
+        Header.Height = 25
+        Header.MainColumn = 1
+        Header.Options = [hoColumnResize, hoDrag, hoShowSortGlyphs, hoVisible]
+        Header.Style = hsFlatButtons
+        ParentFont = False
+        PopupMenu = PopupMenu1
+        TabOrder = 0
+        TreeOptions.MiscOptions = [toFullRepaintOnResize, toInitOnSave, toReportMode, toToggleOnDblClick, toWheelPanning, toEditOnClick]
+        TreeOptions.PaintOptions = [toHideFocusRect, toShowButtons, toShowDropmark, toThemeAware, toUseBlendedImages, toGhostedIfUnfocused]
+        TreeOptions.SelectionOptions = [toFullRowSelect, toSimpleDrawSelection, toAlwaysSelectNode]
+        OnGetText = VSTGetText
+        OnGetNodeDataSize = VSTGetNodeDataSize
+        OnMouseUp = VSTMouseUp
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Listeners'
+      ClientHeight = 170
+      ClientWidth = 838
+      object VirtualStringTree1: TVirtualStringTree
+        Cursor = 63
+        Left = 0
+        Height = 170
+        Top = 0
+        Width = 838
+        Align = alClient
+        DefaultText = 'Node'
+        Header.AutoSizeIndex = 0
+        Header.Columns = <        
+          item
+            Position = 0
+            Text = 'Profile name'
+            Width = 100
+          end        
+          item
+            Position = 1
+            Text = 'Address'
+            Width = 100
+          end        
+          item
+            Position = 2
+            Text = 'port'
+            Width = 70
+          end        
+          item
+            Position = 3
+            Text = 'Type'
+          end>
+        Header.Options = [hoColumnResize, hoDrag, hoShowSortGlyphs, hoVisible]
+        TabOrder = 0
+        OnGetText = VirtualStringTree1GetText
+        OnGetNodeDataSize = VirtualStringTree1GetNodeDataSize
+      end
+    end
+  end
+  object Button1: TButton
+    Left = 680
+    Height = 25
+    Top = 16
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 2
+    Visible = False
+  end
+  object Button2: TButton
+    Left = 768
+    Height = 25
+    Top = 16
+    Width = 75
+    Caption = 'Button2'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+  object Button3: TButton
+    Left = 592
+    Height = 25
+    Top = 16
+    Width = 75
+    Caption = 'Button3'
+    OnClick = Button3Click
+    TabOrder = 4
+    Visible = False
+  end
+  object Panel1: TPanel
+    Left = 16
+    Height = 232
+    Top = 304
+    Width = 848
+    ClientHeight = 232
+    ClientWidth = 848
+    TabOrder = 5
+    object PageControl2: TPageControl
+      Left = 5
+      Height = 208
+      Top = 8
+      Width = 835
+      Font.Height = -19
+      ParentFont = False
+      TabOrder = 0
+      OnChange = PageControl2Change
+    end
+  end
+  object ImageList1: TImageList
+    Left = 752
+    Top = 272
+    Bitmap = {
+      4C7A020000001000000010000000200200000000000078DA636040051A3CE23C
+      690AD681556A2E15405C0BC5E5690A36011A3C623C0C3880081B3753AF815FC5
+      76ABF4378B8C63B603F57400711314772C368EDE0E92EB540B2A07A945D7BBC8
+      28663550CDBE682125055C76C400E5806AF603F14A643340F682F402C5D81808
+      00901A90191D6AC1E530FF82DC85CF5E741021A8A0B8DD32FD8D3AAF184F86BC
+      6520C8BF0C248245C6D13BD214AD03A0E1DC41AA7EA09E4E50BC0071030893A1
+      BF011953A2BF4137A1494EA533405967713510D70A8A06EAA3AB078981E4406A
+      E4553A7CEA75E31BA1FAEBE2ED8FBF3473FAF21F8695B51761B8072486AC06A8
+      E705486FB0667E29B238B1FA4118A8B7445D7B7E35B9FA35807A15D53A7CC8D5
+      0F0A07360E29467DAB9B6B49D50FD4B3869D5D921124C7C626C52807344B597B
+      719D8AF6A2265CE10F9203A901B919A67738016E461DC170CEEA265F8E9C1A20
+      2EE462E227C98F31ECD575DC8CFCDC20B60E8B9DA139AB6F3829FA93397B6603
+      F54541DCC2CFEAC4165B4E8A7E7356BF484B165F1F08DB37D2CA7047952CB715
+      9B28933C1BA961216AD01DE0647EE6B01757612DD01D45409C4D8A7E716E2BF6
+      68CD96F9DC72A19A3C7285868ACC7AA6F65C49E5EC4AA11AC4E8176392639F9A
+      7DEA6C50F1713B7E8D425B3636717E2DE70B8714021E4D24D60D5EA24D0D335A
+      CF6CD7D70B90D170B9B457D1FFC152662E1976E27D21C3E02EB5B4CF25FEFD33
+      D2F54280B0619FA382FFA399E4E81D0A0000535110A9
+    }
+  end
+  object Timer1: TTimer
+    Interval = 30000
+    OnTimer = Timer1Timer
+    Left = 792
+    Top = 272
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 832
+    Top = 272
+    object MenuItem1: TMenuItem
+      Caption = 'interact'
+      OnClick = MenuItem1Click
+      object MenuItem2: TMenuItem
+        Caption = 'Shell'
+        OnClick = MenuItem2Click
+      end
+      object MenuItem3: TMenuItem
+        Caption = 'Option2'
+      end
+      object MenuItem4: TMenuItem
+        Caption = 'Option3'
+      end
+    end
+  end
+end
