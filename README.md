@@ -13,5 +13,4 @@ the following repo has been made to share the development stage of mini c2c writ
 ## Get notified 
 the better place to get updates regarding the following project is on twitter, you can follow me [@zux0x3a](https://twitter.com/zux0x3a) 
 
-## want to support 
-thats optional for you, a small appreciation is always welcomed, feel free to send that via [PayPal](https://www.paypal.com/paypalme/0xsp)
+
